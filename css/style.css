@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.btns {
+    margin-top: 50px;
+    padding: 25px;
+
+}
+
+.forwardButton, .backwardButton {
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.forwardButton {
+    background-color: bisque;
+}
+
+.backwardButton {
+    background-color: aquamarine;
+}
+
+.colorChangeDiv {
+    width: 300px;
+    height: 300px;
+    border: 3px solid black;
+    margin-top: 50px;
+    
+    
+}
